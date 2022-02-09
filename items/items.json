@@ -1,0 +1,272 @@
+[
+    {
+        "name": "Mystic Key",
+        "type": "toggle",
+        "img": "images/key.png",
+        "codes": "key"
+    },
+    {
+        "name": "Lute",
+        "type": "toggle",
+        "img": "images/lute.png",
+        "codes": "lute"
+    },
+    {
+        "name": "Garland",
+        "type": "toggle",
+        "img": "images/garland.png",
+        "codes": "garland"
+    },
+    {
+        "name": "Adamant",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/adamant.png",
+                "codes": "adamant"
+            },
+            {
+                "img": "images/adamant-done.png",
+                "codes": "adamant,adamantDone"
+            }
+        ]
+    },
+    {
+        "name": "TNT",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/tnt.png",
+                "codes": "tnt"
+            },
+            {
+                "img": "images/tnt-done.png",
+                "codes": "tnt,tntDone"
+            }
+        ]
+    },
+    {
+        "name": "Rod",
+        "type": "toggle",
+        "img": "images/rod.png",
+        "codes": "rod"
+    },
+    {
+        "name": "Oxyale",
+        "type": "toggle",
+        "img": "images/oxyale.png",
+        "codes": "oxyale"
+    },
+    {
+        "name": "Chime",
+        "type": "toggle",
+        "img": "images/chime.png",
+        "codes": "chime"
+    },
+    {
+        "name": "Cube",
+        "type": "toggle",
+        "img": "images/cube.png",
+        "codes": "cube"
+    },
+    {
+        "name": "Bridge",
+        "type": "toggle",
+        "img": "images/bridge.png",
+        "codes": "bridge"
+    },
+    {
+        "name": "Ship",
+        "type": "toggle",
+        "img": "images/ship.png",
+        "codes": "ship"
+    },
+    {
+        "name": "Canal",
+        "type": "toggle",
+        "img": "images/canal-yes.png",
+        "codes": "canal"
+    },
+    {
+        "name": "Canoe",
+        "type": "toggle",
+        "img": "images/canoe.png",
+        "codes": "canoe"
+    },
+    {
+        "name": "Floater",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/floater.png",
+                "codes": "floater,inactiveFloater"
+            },
+            {
+                "img": "images/airship.png",
+                "codes": "floater,airship"
+            }
+        ]
+    },
+    {
+        "name": "Crown",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/crown.png",
+                "codes": "crown"
+            },
+            {
+                "img": "images/crown-done.png",
+                "codes": "crown,crownDone"
+            }
+        ]
+    },
+    {
+        "name": "Crystal",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/crystal.png",
+                "codes": "crystal"
+            },
+            {
+                "img": "images/crystal-done.png",
+                "codes": "crystal,crystalDone"
+            }
+        ]
+    },
+    {
+        "name": "Herb",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/herb.png",
+                "codes": "herb"
+            },
+            {
+                "img": "images/herb-done.png",
+                "codes": "herb,herbDone"
+            }
+        ]
+    },
+    {
+        "name": "Ruby",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/ruby.png",
+                "codes": "ruby"
+            },
+            {
+                "img": "images/ruby-done.png",
+                "codes": "ruby,titan"
+            }
+        ]
+    },
+    {
+        "name": "Tail",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/tail.png",
+                "codes": "tail"
+            },
+            {
+                "img": "images/tail-done.png",
+                "codes": "tail,bahamut"
+            }
+        ]
+    },
+    {
+        "name": "Slab",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/slab-found.png",
+                "codes": "slab"
+            },
+            {
+                "img": "images/slab-translated.png",
+                "codes": "slab,slabTranslated,unne"
+            },
+            {
+                "img": "images/slab-translated-done.png",
+                "codes": "slab,slabDone,slabTurnIn"
+            }
+        ]
+    },
+    {
+        "name": "Bottle",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/bottle.png",
+                "codes": "bottle"
+            },
+            {
+                "img": "images/bottle-done.png",
+                "codes": "bottle,bottlepopped"
+            }
+        ]
+    },
+    {
+        "name": "Earth Orb",
+        "allow_disabled": false,
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/orb-earth-no.png",
+                "codes": "earthorb"
+            },
+            {
+                "img": "images/orb-earth-yes.png",
+                "codes": "earthorb,earthorblit"
+            }
+        ]
+    },
+    {
+        "name": "Fire Orb",
+        "allow_disabled": false,
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/orb-fire-no.png",
+                "codes": "fireorb"
+            },
+            {
+                "img": "images/orb-fire-yes.png",
+                "codes": "fireorb,fireorblit"
+            }
+        ]
+    },
+    {
+        "name": "Water Orb",
+        "allow_disabled": false,
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/orb-water-no.png",
+                "codes": "waterorb"
+            },
+            {
+                "img": "images/orb-water-yes.png",
+                "codes": "waterorb,waterorblit"
+            }
+        ]
+    },
+    {
+        "name": "Air Orb",
+        "allow_disabled": false,
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/orb-air-no.png",
+                "codes": "airorb"
+            },
+            {
+                "img": "images/orb-air-yes.png",
+                "codes": "airorb,airorblit"
+            }
+        ]
+    }
+]

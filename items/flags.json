@@ -1,0 +1,123 @@
+[
+    {
+        "name" : "Northern Docks",
+        "type" : "toggle",
+        "img" : "images/northernDocks.png",
+        "codes" : "northernDocks",
+		"disabled_img" : "images/noNorthernDocks.png"
+    },
+    {
+        "name" : "Open Progression",
+        "type" : "progressive",
+        "stages" : [
+            {
+                "img" : "images/openProgression.png",
+                "codes" : "progressionFlag,openProgression"
+            },
+            {
+                "img" : "images/extendedOpen.png",
+                "codes" : "progressionFlag,extendedOpen"
+            }
+        ]
+    },
+    {
+        "name" : "Cardia Island (main) Dock",
+        "type" : "toggle",
+        "img" : "images/cardiaDock.png",
+        "codes" : "cardiaDock",
+		"disabled_img" : "images/noCardiaDock.png"
+    },
+    {
+        "name" : "Gaia Mountain Pass",
+        "type" : "toggle",
+        "img" : "images/gaiaMountain.png",
+        "codes" : "gaiaMountain",
+		"disabled_img" : "images/noGaiaMountain.png"
+    },
+    {
+        "name" : "Lefein River Dock",
+        "type" : "toggle",
+        "img" : "images/lefeinRiver.png",
+        "codes" : "lefeinRiver",
+		"disabled_img" : "images/noLefeinRiver.png"
+    },
+    {
+        "name": "NPCs are Incentive",
+        "type": "toggle",
+        "active": true,
+        "img": "images/king.png",
+        "codes": "npcsAreIncentive"
+    },
+    {
+        "name": "Fetch Quests are Incentive",
+        "type": "toggle",
+        "img": "images/matoya.png",
+        "codes": "fetchQuestsAreIncentive"
+    },
+    {
+        "name": "Coneria Locked is Incentive",
+        "type": "toggle",
+        "img": "images/coneriaLocked.png",
+        "codes": "coneriaLockedIsIncentive"
+    },
+    {
+        "name": "Marsh is Incentive",
+        "type": "toggle",
+        "img": "images/marsh.png",
+        "codes": "marshIsIncentive"
+    },
+    {
+        "name": "Marsh Locked is Incentive",
+        "type": "toggle",
+        "img": "images/marshLocked.png",
+        "codes": "marshLockedIsIncentive"
+    },
+    {
+        "name": "Ice Cave is Incentive",
+        "type": "toggle",
+        "img": "images/iceCave.png",
+        "codes": "iceCaveIsIncentive"
+    },
+    {
+        "name": "Ordeals is Incentive",
+        "type": "toggle",
+        "img": "images/ordeals.png",
+        "codes": "ordealsIsIncentive"
+    },
+    {
+        "name": "Titan's Trove is Incentive",
+        "type": "toggle",
+        "img": "images/titan.png",
+        "codes": "titansTroveIsIncentive"
+    },
+    {
+        "name": "Earth is Incentive",
+        "type": "toggle",
+        "img": "images/earth.png",
+        "codes": "earthIsIncentive"
+    },
+    {
+        "name": "Volcano is Incentive",
+        "type": "toggle",
+        "img": "images/redD.png",
+        "codes": "volcanoIsIncentive"
+    },
+    {
+        "name": "Sky is Incentive",
+        "type": "toggle",
+        "img": "images/skyPalace.png",
+        "codes": "skyIsIncentive"
+    },
+    {
+        "name": "Sea Shrine is Incentive",
+        "type": "toggle",
+        "img": "images/seaShrine.png",
+        "codes": "seaIsIncentive"
+    },
+	{
+		"name": "Cardia Island is Incentive",
+		"type": "toggle",
+		"img": "images/cardiaIncentive.png",
+		"codes": "cardiaIsIncentive"
+	}
+]

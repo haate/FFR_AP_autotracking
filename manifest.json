@@ -1,0 +1,23 @@
+{
+    "name": "Final Fantasy 1 Randomizer",
+    "game_name": "Final Fantasy",
+    "game_variant": "Entroper (V4.0.0)",
+    "platform": "nes",
+    "package_version": "1.4.0.1",
+    "package_uid": "ff1_rando_jat",
+    "author": "jat2980, DarkmoonEX, HaateXIII",
+    "variants": {
+        "standard": {
+            "display_name": "Standard Map Tracker"
+        },
+        "shardHunt": {
+            "display_name": "Shard Hunt Map Tracker"
+        },
+        "standardNoMap": {
+            "display_name": "Standard Tracker"
+        },
+        "shardHuntNoMap": {
+            "display_name": "Shard Hunt Tracker"
+        }
+    }
+}

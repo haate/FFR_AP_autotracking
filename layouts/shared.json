@@ -1,0 +1,40 @@
+{
+    "shared_item_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+            [ "earthorb", "fireorb", "waterorb", "airorb" ],
+            [ "lute", "key", "rod", "oxyale", "chime", "cube" ],
+            [ "bridge", "ship", "canal", "canoe", "floater" ],
+            [ "adamant", "tnt", "crown", "crystal", "herb" ],
+            [ "garland", "ruby", "tail", "slab", "bottle" ]
+        ]
+    },
+    "shared_locations_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+            [ "king", "sara", "bikke", "nerrick", "smith" ],
+            [ "astos", "sarda", "sages", "matoya", "elfprince" ],
+            [ "marsh", "marshLocked", "fairy", "lefein", "coneriaLocked" ],
+            [ "robot", "iceCave", "ordeals", "titansTrove", "cardiaIncentive" ],
+            [ "shopItem", "earth", "volcano", "sea", "sky" ]
+        ]
+    },
+    "shared_flags_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+            [ "extendedOpen", "npcsAreIncentive", "fetchQuestsAreIncentive" ],
+            [ "northernDocks", "gaiaMountain", "lefeinRiver" ,"cardiaDock" ],
+            [ "iceCaveIsIncentive", "ordealsIsIncentive", "marshIsIncentive", "titansTroveIsIncentive" ],
+            [ "earthIsIncentive", "volcanoIsIncentive", "seaIsIncentive", "skyIsIncentive" ],
+            [ "coneriaLockedIsIncentive", "marshLockedIsIncentive", "cardiaIsIncentive" ]
+        ]
+    }
+}

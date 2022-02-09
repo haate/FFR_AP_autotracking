@@ -1,0 +1,248 @@
+[
+    {
+        "name": "Shards",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/shard_gifs/shard-00.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-01.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-02.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-03.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-04.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-05.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-06.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-07.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-08.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-09.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-10.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-11.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-12.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-13.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-14.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-15.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-16.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-17.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-18.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-19.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-20.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-21.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-22.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-23.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-24.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-25.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-26.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-27.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-28.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-29.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-30.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-31.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-32.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-33.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-34.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-35.gif",
+                "codes": "shards"
+            },
+            {
+                "img": "images/shard_gifs/shard-36.gif",
+                "codes": "shards"
+            }
+        ]
+    },
+    {
+        "name": "Shards Required",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/shard_gifs/shard-goal-16.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-17.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-18.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-19.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-20.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-21.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-22.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-23.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-24.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-25.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-26.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-27.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-28.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-29.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-30.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-31.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-32.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-33.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-34.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-35.gif",
+                "codes": "shardsRequired"
+            },
+            {
+                "img": "images/shard_gifs/shard-goal-36.gif",
+                "codes": "shardsRequired"
+            }
+        ]
+    }
+]
