@@ -60,9 +60,7 @@ skyIncentive.Active = true
 local coneriaLockedIncentive = Tracker:FindObjectForCode("coneriaLockedIsIncentive")
 coneriaLockedIncentive.Active = true
 
-Tracker.DisplayAllLocations = PREFERENCE_DISPLAY_ALL_LOCATIONS
-
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion>="0.18.0" then
-  ScriptHost:LoadScript("scripts/autotracking.lua")    
+  ScriptHost:LoadScript("scripts/autotracking.lua")
 end

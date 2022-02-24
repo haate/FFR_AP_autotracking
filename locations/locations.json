@@ -136,7 +136,7 @@
                         "hosted_item": "smith"
                     },
                     {
-                        "name": "Nerrick (Vanilla Canal)",
+                        "name": "Nerrick",
                         "access_rules": [ "tnt" ],
                         "item_count": 1,
                         "hosted_item": "nerrick"
@@ -961,5 +961,24 @@
                 ]
             }
         ]
-    }
+    },
+    {
+        "name": "Anywhere",
+        "color": "#808080",
+        "children": [
+            {
+                "name": "Shop Item",
+				"access_rules": [],
+				"item_count": 1,
+				"hosted_item" : "shopItem"
+			}
+		],
+		"map_locations" : [
+			{
+				"map" : "overworld",
+				"x" : 0,
+				"y" : 0
+			}
+		]
+	}
 ]

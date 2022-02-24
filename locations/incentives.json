@@ -86,7 +86,7 @@
 						"hosted_item" : "smith"
 					},
 					{
-						"name" : "I: Nerrick (Vanilla Canal)",
+						"name" : "I: Nerrick",
 						"access_rules" : [ "tnt" ],
 						"visibility_rules" : [ "fetchQuestsAreIncentive" ],
 						"hosted_item" : "nerrick"
@@ -586,6 +586,24 @@
 						"y" : 660
 					}
 				]
+			}
+		]
+	},
+	{
+		"name" : "A: Anywhere",
+		"color" : "#808080",
+		"children" : [
+			{
+				"name" : "Shop Item",
+				"access_rules" : [],
+				"hosted_item" : "shopItem"
+			}
+		],
+		"map_locations" : [
+			{
+				"map" : "incentives",
+				"x" : 0,
+				"y" : 0
 			}
 		]
 	}

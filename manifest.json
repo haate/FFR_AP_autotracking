@@ -3,21 +3,33 @@
     "game_name": "Final Fantasy",
     "game_variant": "Entroper (V4.0.0)",
     "platform": "nes",
-    "package_version": "1.4.0.1",
-    "package_uid": "ff1_rando_jat",
+    "package_version": "0.1b",
+    "package_uid": "ff1_rando_ap",
     "author": "jat2980, DarkmoonEX, HaateXIII",
     "variants": {
         "standard": {
-            "display_name": "Standard Map Tracker"
+            "display_name": "Standard Map Tracker",
+			"flags" : [
+				"ap"
+			]
         },
         "shardHunt": {
-            "display_name": "Shard Hunt Map Tracker"
+            "display_name": "Shard Hunt Map Tracker",
+			"flags" : [
+				"ap"
+			]
         },
         "standardNoMap": {
-            "display_name": "Standard Tracker"
+            "display_name": "Standard Tracker",
+			"flags" : [
+				"ap"
+			]
         },
         "shardHuntNoMap": {
-            "display_name": "Shard Hunt Tracker"
+            "display_name": "Shard Hunt Tracker",
+			"flags" : [
+				"ap"
+			]
         }
     }
 }

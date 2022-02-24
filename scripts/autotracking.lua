@@ -1,5 +1,5 @@
 -- Configuration --------------------------------------
-AUTOTRACKER_ENABLE_DEBUG_LOGGING = true or ENABLE_DEBUG_LOG
+AUTOTRACKER_ENABLE_DEBUG_LOGGING = false
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true
 AUTOTRACKER_ENABLE_LOCATION_TRACKING = true and not IS_ITEMS_ONLY
 -------------------------------------------------------
@@ -41,6 +41,17 @@ function onClear()
         print(string.format("onClear: could not find object for code %s", v[1]))
       end
     end
+--     if v[2] then
+--       if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+--         print(string.format("onClear: clearing location %s", v[2]))
+--       end
+--       local obj = Tracker:FindObjectForCode(v[2])
+--       if obj then
+--          obj.Active = false
+--       elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+--         print(string.format("onClear: could not find object for code %s", v[1]))
+--       end
+--     end
   end
   for _, v in pairs(ITEM_MAPPING) do
     if v[1] and v[2] then
@@ -87,6 +98,7 @@ function onItem(index, item_id, item_name)
   end
   local obj = Tracker:FindObjectForCode(v[1])
   if obj then
+    print(string.format("onItem: Found object %s", obj))
     if v[2] == "toggle" then
       obj.Active = true
     elseif v[2] == "progressive" then
@@ -113,7 +125,7 @@ function onLocation(location_id, location_name)
   if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING then
     print(string.format("onLocation: could not find location mapping for id %s", location_id))
   end
-  if not v[1] then
+  if not v or not v[1] then
     return
   end
   local obj = Tracker:FindObjectForCode(v[1])
@@ -125,6 +137,16 @@ function onLocation(location_id, location_name)
     end
   elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
     print(string.format("onLocation: could not find object for code %s", v[1]))
+  end
+  -- Update hosted item as well
+  if v[2] then
+      print(string.format("onLocation: found v2 %s", v[2]))
+    local obj = Tracker:FindObjectForCode(v[2])
+    if obj then
+      obj.Active = true
+    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+        print(string.format("onLocation: could not find object for code %s", v[2]))
+    end
   end
 end
 
